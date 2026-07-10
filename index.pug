@@ -1,0 +1,67 @@
+include header
+
+html
+    head
+        meta(property='og:title'       content='ЄСІКС: Інтелектуальні сервіси')
+        meta(property='og:description' content='Інтелектуальні сервіси на базі локальних LLM')
+        meta(property='og:url'         content='https://uacourt.github.io/ai/')
+
+block title
+    title ЄСІКС: Інтелектуальні сервіси
+
+block content
+    article.main
+        .exe
+            section
+            p(style="font-size: 14px;").
+                Тут представлені матеріали та документація до підсистеми "Інтелектуальні сервіси" 
+                Єдиної Судової Інформаційно-комунікаційної Системи (ЄСІКС).
+
+        br
+        <hr size=1>
+        br
+        .exe
+            section
+            h1 ІНТЕЛЕКТУАЛЬНІ СЕРВІСИ
+            p.
+                Архітектура підсистеми побудована на децентралізованих обчислювальних вузлах 
+                зі споживчими графічними прискорювачами (наприклад, NVIDIA RTX 4070 Ti), 
+                що забезпечують локальне виконання квантованих великих мовних моделей 
+                (Llama-3-8B-Instruct, Phi-3).
+            p.
+                Такий підхід («Air-Gapped») дозволяє обробляти конфіденційні дані 
+                та матеріали безпосередньо в захищеному периметрі установи, унеможливлюючи 
+                витоки інформації через глобальну мережу Інтернет, що відповідає вимогам 
+                КСЗІ та стандартам NIST SP 800-53.
+            p.
+                Для мінімізації галюцинацій моделей використовується локальний семантичний 
+                пошук RAG на базі індексів HNSW (FAISS) та швидких сховищ (RocksDB), 
+                а перед обробкою тексти проходять обов'язкову NER-фільтрацію та маскування 
+                персональних даних. Програмний стек підтримує оптимізації PagedAttention 
+                та Continuous Batching для багатокористувацької роботи в умовах обмеженого VRAM.
+
+        br
+        .exe
+            section
+            h1 ПРОЄКТНА ДОКУМЕНТАЦІЯ
+            p.
+                Технічні завдання та вимоги щодо впровадження підсистеми:
+
+            div(style="padding-top: 8px;")
+                img(src="https://anders.groupoid.space/images/pdf.jpg", width="35")
+                a(href="implementation/ai_pro.pdf") &nbsp; Техноробочий проект: Інтелектуальні сервіси
+            br
+            div(style="padding-top: 8px;")
+                img(src="https://anders.groupoid.space/images/pdf.jpg", width="35")
+                a(href="requirements/ai_infra.pdf") &nbsp; Технічні вимоги: Локальна LLM-інфраструктура
+            br
+            div(style="padding-top: 8px;")
+                img(src="https://anders.groupoid.space/images/pdf.jpg", width="35")
+                a(href="requirements/ai.pdf") &nbsp; Технічні вимоги: Інтелектуальні сервіси
+            br
+            div(style="padding-top: 8px;")
+                img(src="https://anders.groupoid.space/images/pdf.jpg", width="35")
+                a(href="requirements/awareness.pdf") &nbsp; Технічні вимоги: Том VII. Інтелектуальні сервіси
+
+    hr
+    include footer
