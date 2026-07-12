@@ -1,0 +1,821 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/27.0.5 Chrome/134.0.6998.205 Electron/35.3.0 Safari/537.36" version="27.0.5">
+  <diagram id="esist-ai-pipeline" name="AI Pipeline ЄСІКС">
+    <mxGraphModel dx="1529" dy="3632" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1700" pageHeight="2760" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="me4lYyNjMRYnS9wgJTod-176" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;opacity=40;arcSize=9;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" parent="1" vertex="1">
+          <mxGeometry x="615" y="2930" width="1405" height="660" as="geometry" />
+        </mxCell>
+        <mxCell id="me4lYyNjMRYnS9wgJTod-128" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;opacity=40;arcSize=9;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" parent="1" vertex="1">
+          <mxGeometry x="615" y="1960" width="1405" height="550" as="geometry" />
+        </mxCell>
+        <mxCell id="me4lYyNjMRYnS9wgJTod-148" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;opacity=40;arcSize=9;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" parent="1" vertex="1">
+          <mxGeometry x="2150" y="1960" width="1405" height="550" as="geometry" />
+        </mxCell>
+        <mxCell id="me4lYyNjMRYnS9wgJTod-111" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;opacity=40;arcSize=9;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" parent="1" vertex="1">
+          <mxGeometry x="620" y="1600" width="1405" height="310" as="geometry" />
+        </mxCell>
+        <mxCell id="me4lYyNjMRYnS9wgJTod-87" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;opacity=40;arcSize=9;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" parent="1" vertex="1">
+          <mxGeometry x="80" y="890" width="1940" height="640" as="geometry" />
+        </mxCell>
+        <mxCell id="me4lYyNjMRYnS9wgJTod-57" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;opacity=40;arcSize=9;" parent="1" vertex="1">
+          <mxGeometry x="2180" y="-480" width="1430" height="550" as="geometry" />
+        </mxCell>
+        <mxCell id="me4lYyNjMRYnS9wgJTod-19" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;opacity=40;arcSize=9;" parent="1" vertex="1">
+          <mxGeometry x="85" y="-450" width="390" height="430" as="geometry" />
+        </mxCell>
+        <mxCell id="me4lYyNjMRYnS9wgJTod-4" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;opacity=40;arcSize=9;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" parent="1" vertex="1">
+          <mxGeometry x="580" y="-1220" width="1160" height="660" as="geometry" />
+        </mxCell>
+        <mxCell id="me4lYyNjMRYnS9wgJTod-1" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;opacity=40;arcSize=9;" parent="1" vertex="1">
+          <mxGeometry x="580" y="-480" width="1430" height="550" as="geometry" />
+        </mxCell>
+        <mxCell id="a1" value="ЦБД ЄСІКС&#xa;справи, провадження,&#xa;документи, файли" style="rounded=1;whiteSpace=wrap;html=0;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" vertex="1">
+          <mxGeometry x="125" y="-300" width="300" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="a2" value="ІС інших органів&#xa;додаткові матеріали" style="rounded=1;whiteSpace=wrap;html=0;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" vertex="1">
+          <mxGeometry x="125" y="-210" width="300" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="me4lYyNjMRYnS9wgJTod-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;startArrow=block;startFill=1;endArrow=block;endFill=1;dashed=1;dashPattern=8 8;flowAnimation=1;strokeWidth=3;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" source="b1" target="a2" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="me4lYyNjMRYnS9wgJTod-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=block;startFill=1;endArrow=block;endFill=1;dashed=1;dashPattern=8 8;flowAnimation=1;strokeWidth=3;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" source="b1" target="a1" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="me4lYyNjMRYnS9wgJTod-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;startArrow=block;startFill=1;endArrow=none;endFill=1;dashed=1;dashPattern=8 8;flowAnimation=1;strokeWidth=3;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" source="b1" target="a4" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="me4lYyNjMRYnS9wgJTod-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;startArrow=block;startFill=1;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=3;flowAnimation=1;" parent="1" source="b1" target="me4lYyNjMRYnS9wgJTod-48" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1130" y="-365" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="b1" value="API-шлюз &#xa;Kong, APISIX | Apigee" style="rounded=1;whiteSpace=wrap;html=0;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
+          <mxGeometry x="600" y="-400" width="300" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="me4lYyNjMRYnS9wgJTod-2" value="Контур збору інформації для дослідження" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;" parent="1" vertex="1">
+          <mxGeometry x="600" y="-460" width="420" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="a5" value="Типізовані та апробовані завдання&#xa;(попередньо сформована&#xa;методологія аналізу)" style="rounded=1;whiteSpace=wrap;html=0;fillColor=#f5f5f5;strokeColor=#666666;" parent="1" vertex="1">
+          <mxGeometry x="1300" y="-990" width="300" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="me4lYyNjMRYnS9wgJTod-5" value="Контур обробки завдань" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;" parent="1" vertex="1">
+          <mxGeometry x="640" y="-1190" width="350" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="me4lYyNjMRYnS9wgJTod-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeWidth=3;fillColor=#d5e8d4;strokeColor=#82b366;flowAnimation=1;" parent="1" source="me4lYyNjMRYnS9wgJTod-6" target="c1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1095" y="-1260" />
+              <mxPoint x="1275" y="-1260" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="me4lYyNjMRYnS9wgJTod-6" value="Інша підсистема" style="points=[[0.145,0.145,0],[0.5,0,0],[0.855,0.145,0],[1,0.5,0],[0.855,0.855,0],[0.5,1,0],[0.145,0.855,0],[0,0.5,0]];shape=mxgraph.bpmn.event;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=ellipsePerimeter;outlineConnect=0;aspect=fixed;outline=standard;symbol=general;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+          <mxGeometry x="1070" y="-1400" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="me4lYyNjMRYnS9wgJTod-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=3;fillColor=#d5e8d4;strokeColor=#82b366;flowAnimation=1;" parent="1" source="me4lYyNjMRYnS9wgJTod-7" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1275" y="-1120" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="me4lYyNjMRYnS9wgJTod-7" value="Користувач" style="points=[[0.145,0.145,0],[0.5,0,0],[0.855,0.145,0],[1,0.5,0],[0.855,0.855,0],[0.5,1,0],[0.145,0.855,0],[0,0.5,0]];shape=mxgraph.bpmn.event;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=ellipsePerimeter;outlineConnect=0;aspect=fixed;outline=standard;symbol=general;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+          <mxGeometry x="1250" y="-1400" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="me4lYyNjMRYnS9wgJTod-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeWidth=3;fillColor=#d5e8d4;strokeColor=#82b366;flowAnimation=1;" parent="1" source="me4lYyNjMRYnS9wgJTod-11" target="c1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1455" y="-1260" />
+              <mxPoint x="1275" y="-1260" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="me4lYyNjMRYnS9wgJTod-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;startFill=0;strokeWidth=3;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" source="me4lYyNjMRYnS9wgJTod-11" target="me4lYyNjMRYnS9wgJTod-13" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="me4lYyNjMRYnS9wgJTod-11" value="Менеджер аналітичних&amp;nbsp;&lt;div&gt;та статистичних завдань&lt;/div&gt;" style="points=[[0.145,0.145,0],[0.5,0,0],[0.855,0.145,0],[1,0.5,0],[0.855,0.855,0],[0.5,1,0],[0.145,0.855,0],[0,0.5,0]];shape=mxgraph.bpmn.event;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=ellipsePerimeter;outlineConnect=0;aspect=fixed;outline=standard;symbol=general;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+          <mxGeometry x="1430" y="-1400" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="me4lYyNjMRYnS9wgJTod-13" value="Окремий менеджер для формування завдань із певною періодичністю.&lt;div&gt;Власна система керування завданнями, промптами та навичками (skills)&lt;/div&gt;" style="whiteSpace=wrap;html=1;verticalAlign=middle;fillColor=#dae8fc;strokeColor=#6c8ebf;labelBackgroundColor=none;spacingLeft=5;spacingRight=6;rounded=1;" parent="1" vertex="1">
+          <mxGeometry x="1690" y="-1418.75" width="230" height="87.5" as="geometry" />
+        </mxCell>
+        <mxCell id="me4lYyNjMRYnS9wgJTod-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;dashed=1;strokeWidth=3;fillColor=#dae8fc;strokeColor=#6c8ebf;endArrow=block;startFill=1;endFill=1;startArrow=block;flowAnimation=1;" parent="1" source="me4lYyNjMRYnS9wgJTod-13" target="a5" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1805" y="-955" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="me4lYyNjMRYnS9wgJTod-16" value="Брокер завдань&#xa;RabbitMQ | Redis/Valkey (через Celery)" style="rounded=1;whiteSpace=wrap;html=0;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" vertex="1">
+          <mxGeometry x="691" y="-1015" width="130" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="me4lYyNjMRYnS9wgJTod-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=3;fillColor=#e1d5e7;strokeColor=#9673a6;startArrow=block;startFill=1;endArrow=block;endFill=1;" parent="1" source="me4lYyNjMRYnS9wgJTod-17" target="c1" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="me4lYyNjMRYnS9wgJTod-17" value="СУБД для постійного обліку завдань і додаткових параметрів&#xa;PostgreSQL" style="rounded=1;whiteSpace=wrap;html=0;fillColor=#e1d5e7;strokeColor=#9673a6;fillStyle=auto;spacingBottom=2;spacingTop=15;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="650" y="-920" width="170" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="me4lYyNjMRYnS9wgJTod-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=3;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.235;exitY=1.013;exitDx=0;exitDy=0;exitPerimeter=0;endArrow=block;endFill=1;" parent="1" source="me4lYyNjMRYnS9wgJTod-37" target="c3" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="me4lYyNjMRYnS9wgJTod-18" value="Нестандартні (ad hoc) завдання користувачів" style="rounded=1;whiteSpace=wrap;html=0;fillColor=#f5f5f5;strokeColor=#666666;" parent="1" vertex="1">
+          <mxGeometry x="960" y="-990" width="300" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="a3" value="Держреєстри через «Трембіту»&#xa;Демографічний, реєстр ТЗ, ЄДР тощо " style="rounded=1;whiteSpace=wrap;html=0;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" vertex="1">
+          <mxGeometry x="125" y="-110" width="300" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="a4" value="Метадані&#xa;з центральної БД" style="rounded=1;whiteSpace=wrap;html=0;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" vertex="1">
+          <mxGeometry x="125" y="-400" width="300" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="me4lYyNjMRYnS9wgJTod-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;startArrow=block;startFill=1;endArrow=block;endFill=1;dashed=1;dashPattern=8 8;flowAnimation=1;strokeWidth=3;fillColor=#dae8fc;strokeColor=#6c8ebf;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="b2" target="a3" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="750" y="-80" />
+              <mxPoint x="425" y="-80" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="me4lYyNjMRYnS9wgJTod-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;startArrow=block;startFill=1;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=3;flowAnimation=1;" parent="1" source="b2" target="me4lYyNjMRYnS9wgJTod-48" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1130" y="-365" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="b2" value="Конектори / ETL / ELT / CDC&#xa;NiFi, Airbyte, Debezium | Fivetran" style="rounded=1;whiteSpace=wrap;html=0;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
+          <mxGeometry x="600" y="-300" width="300" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="me4lYyNjMRYnS9wgJTod-20" value="Дані" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;spacing=0;" parent="1" vertex="1">
+          <mxGeometry x="110" y="-450" width="350" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="me4lYyNjMRYnS9wgJTod-62" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=3;" parent="1" source="b4" target="b5" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="b4" value="Класифікація та дедуплікація&#xa;тип файлу, хеш, версія&#xa;(власна розробка)" style="rounded=1;whiteSpace=wrap;html=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="1082.5" y="-30" width="395" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="me4lYyNjMRYnS9wgJTod-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=3;fillColor=#e1d5e7;strokeColor=#9673a6;endArrow=block;endFill=1;" parent="1" source="c1" target="me4lYyNjMRYnS9wgJTod-18" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="me4lYyNjMRYnS9wgJTod-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;strokeWidth=3;endArrow=block;endFill=1;" parent="1" source="c1" target="a5" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c1" value="Обробник вхідних завдань&#xa;(власна розробка)" style="rounded=1;whiteSpace=wrap;html=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="1025" y="-1120" width="500" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="me4lYyNjMRYnS9wgJTod-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=3;fillColor=#e1d5e7;strokeColor=#9673a6;startArrow=none;startFill=0;endArrow=none;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="c4" target="me4lYyNjMRYnS9wgJTod-16" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="650" y="-1085" />
+              <mxPoint x="650" y="-980" />
+              <mxPoint x="690" y="-980" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="me4lYyNjMRYnS9wgJTod-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=3;endArrow=none;endFill=1;fillColor=#e1d5e7;strokeColor=#9673a6;startArrow=block;startFill=1;" parent="1" source="c4" target="c1" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c4" value="Черги завдань із пріоритетами&#xa;RabbitMQ | Redis/Valkey" style="rounded=1;whiteSpace=wrap;html=0;fillColor=#e1d5e7;strokeColor=#9673a6;glass=0;shadow=0;fillStyle=hatch;dashed=1;dashPattern=12 12;" parent="1" vertex="1">
+          <mxGeometry x="690" y="-1120" width="130" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="me4lYyNjMRYnS9wgJTod-196" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.75;entryY=0;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;strokeWidth=3;fillColor=#dae8fc;strokeColor=#6c8ebf;endArrow=block;endFill=1;" parent="1" source="c3" target="c2" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c3" value="Обробник нестандартних завдань&#xa;DSPy, LangGraph + LLM через LiteLLM" style="rounded=1;whiteSpace=wrap;html=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="960" y="-770" width="300" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="me4lYyNjMRYnS9wgJTod-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=3;endArrow=block;endFill=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" parent="1" source="me4lYyNjMRYnS9wgJTod-37" target="c2" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="me4lYyNjMRYnS9wgJTod-37" value="Workflow-рушій&#xa;(власна розробка) " style="rounded=1;whiteSpace=wrap;html=0;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=1;" parent="1" vertex="1">
+          <mxGeometry x="960" y="-870" width="640" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="me4lYyNjMRYnS9wgJTod-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.765;entryY=0.036;entryDx=0;entryDy=0;entryPerimeter=0;fillColor=#f5f5f5;strokeColor=#666666;strokeWidth=3;endArrow=block;endFill=1;" parent="1" source="a5" target="me4lYyNjMRYnS9wgJTod-37" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="me4lYyNjMRYnS9wgJTod-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.234;entryY=0.036;entryDx=0;entryDy=0;entryPerimeter=0;fillColor=#f5f5f5;strokeColor=#666666;strokeWidth=3;exitX=0.5;exitY=1;exitDx=0;exitDy=0;endArrow=block;endFill=1;" parent="1" source="me4lYyNjMRYnS9wgJTod-18" target="me4lYyNjMRYnS9wgJTod-37" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c2" value="Формування DAG&#xa;етапи залежно від типу завдання" style="rounded=1;whiteSpace=wrap;html=0;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" parent="1" vertex="1">
+          <mxGeometry x="960" y="-670" width="640" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="me4lYyNjMRYnS9wgJTod-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=3;fillColor=#f5f5f5;strokeColor=#666666;endArrow=block;endFill=1;" parent="1" source="c2" target="me4lYyNjMRYnS9wgJTod-48" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="me4lYyNjMRYnS9wgJTod-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeWidth=3;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" source="me4lYyNjMRYnS9wgJTod-48" target="me4lYyNjMRYnS9wgJTod-50" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="me4lYyNjMRYnS9wgJTod-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=3;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" source="me4lYyNjMRYnS9wgJTod-48" target="me4lYyNjMRYnS9wgJTod-51" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="me4lYyNjMRYnS9wgJTod-61" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=3;endArrow=block;endFill=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" source="me4lYyNjMRYnS9wgJTod-48" target="me4lYyNjMRYnS9wgJTod-60" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2130" y="-365" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="me4lYyNjMRYnS9wgJTod-48" value="Рушій збору даних&#xa;(власна розробка)" style="rounded=1;whiteSpace=wrap;html=0;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=1;" parent="1" vertex="1">
+          <mxGeometry x="1085" y="-400" width="390" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="me4lYyNjMRYnS9wgJTod-55" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fillColor=#e1d5e7;strokeColor=#9673a6;strokeWidth=3;" parent="1" source="me4lYyNjMRYnS9wgJTod-50" target="b4" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1280" y="-80" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1095" y="-80" />
+              <mxPoint x="1281" y="-80" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="me4lYyNjMRYnS9wgJTod-50" value="PostgreSQL&#xa;дані: справи, сутності, метадані" style="rounded=1;whiteSpace=wrap;html=0;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" vertex="1">
+          <mxGeometry x="955" y="-210" width="280" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="me4lYyNjMRYnS9wgJTod-54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fillColor=#e1d5e7;strokeColor=#9673a6;strokeWidth=3;" parent="1" source="me4lYyNjMRYnS9wgJTod-51" target="b4" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1470" y="-80" />
+              <mxPoint x="1280" y="-80" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="me4lYyNjMRYnS9wgJTod-51" value="MinIO / S3&#xa;файли, артефакти, результати для видачі" style="rounded=1;whiteSpace=wrap;html=0;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" vertex="1">
+          <mxGeometry x="1330" y="-210" width="280" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="b5" value="Каталог даних і lineage&#xa;OpenMetadata | Collibra" style="rounded=1;whiteSpace=wrap;html=0;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" vertex="1">
+          <mxGeometry x="1660" y="-210" width="300" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="me4lYyNjMRYnS9wgJTod-59" value="Контур контролю та покращення якості даних" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;" parent="1" vertex="1">
+          <mxGeometry x="2250" y="-460" width="480" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="d1" value="Якість зображень&#xa;різкість, яскравість - OpenCV" style="rounded=1;whiteSpace=wrap;html=0;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
+          <mxGeometry x="2760" y="-100" width="380" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="d2" value="Якість аудіо/відео&#xa;бітрейт, SNR, кліпінг - ffprobe, FFmpeg, librosa, pyloudnorm" style="rounded=1;whiteSpace=wrap;html=0;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
+          <mxGeometry x="2760" y="-200" width="380" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="d3" value="Виявлення дефектів технічних записів засідань&#xa;тиша, обриви, перекриття - FFmpeg, librosa, pyannote.audio + правила" style="rounded=1;whiteSpace=wrap;html=0;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
+          <mxGeometry x="2760" y="-400" width="380" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="d4" value="Quality gate&#xa;обробка / повторне сканування / ручна перевірка" style="rounded=1;whiteSpace=wrap;html=0;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
+          <mxGeometry x="2760" y="-300" width="380" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="me4lYyNjMRYnS9wgJTod-63" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=3;flowAnimation=1;" parent="1" source="me4lYyNjMRYnS9wgJTod-60" target="d3" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="me4lYyNjMRYnS9wgJTod-64" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=3;flowAnimation=1;" parent="1" source="me4lYyNjMRYnS9wgJTod-60" target="d4" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="me4lYyNjMRYnS9wgJTod-65" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=3;flowAnimation=1;" parent="1" source="me4lYyNjMRYnS9wgJTod-60" target="d2" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="me4lYyNjMRYnS9wgJTod-66" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=3;startArrow=block;startFill=1;flowAnimation=1;" parent="1" source="me4lYyNjMRYnS9wgJTod-60" target="d1" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="me4lYyNjMRYnS9wgJTod-70" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=3;" parent="1" source="me4lYyNjMRYnS9wgJTod-60" target="me4lYyNjMRYnS9wgJTod-68" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="me4lYyNjMRYnS9wgJTod-60" value="Рушій контролю якості даних" style="rounded=1;whiteSpace=wrap;html=0;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=1;" parent="1" vertex="1">
+          <mxGeometry x="2240" y="-400" width="390" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="me4lYyNjMRYnS9wgJTod-67" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;opacity=40;arcSize=9;" parent="1" vertex="1">
+          <mxGeometry x="590" y="160" width="1430" height="640" as="geometry" />
+        </mxCell>
+        <mxCell id="me4lYyNjMRYnS9wgJTod-71" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=3;startArrow=block;startFill=1;flowAnimation=1;" parent="1" source="me4lYyNjMRYnS9wgJTod-68" target="d1" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="me4lYyNjMRYnS9wgJTod-73" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=3;" parent="1" source="me4lYyNjMRYnS9wgJTod-68" target="me4lYyNjMRYnS9wgJTod-72" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2435" y="235" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="me4lYyNjMRYnS9wgJTod-68" value="Рушій покращення якості даних" style="rounded=1;whiteSpace=wrap;html=0;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=1;" parent="1" vertex="1">
+          <mxGeometry x="2240" y="-100" width="390" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="me4lYyNjMRYnS9wgJTod-78" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fillColor=#ffe6cc;strokeColor=#d79b00;strokeWidth=3;" parent="1" source="e1" target="e2" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e1" value="OCR друкованого тексту й таблиць&#xa;PaddleOCR, Surya | Google Document AI, Azure Document Intelligence, Amazon Textract" style="rounded=1;whiteSpace=wrap;html=0;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
+          <mxGeometry x="670" y="320" width="380" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="me4lYyNjMRYnS9wgJTod-80" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fillColor=#ffe6cc;strokeColor=#d79b00;strokeWidth=3;" parent="1" source="e2" target="e3" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e2" value="Рукописні тексти (HTR)&#xa;TrOCR, Kraken | Azure Read, Google Cloud Vision" style="rounded=1;whiteSpace=wrap;html=0;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
+          <mxGeometry x="670" y="450" width="380" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="me4lYyNjMRYnS9wgJTod-84" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;strokeWidth=3;" parent="1" source="e5" target="e7" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e5" value="Транскрибування та діаризація (мовці)&#xa;faster-whisper, WhisperX + pyannote.audio | Azure AI Speech, Google Cloud Speech-to-Text" style="rounded=1;whiteSpace=wrap;html=0;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
+          <mxGeometry x="1530" y="570" width="380" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="me4lYyNjMRYnS9wgJTod-74" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=3;fillColor=#dae8fc;strokeColor=#6c8ebf;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="me4lYyNjMRYnS9wgJTod-72" target="e1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1275" y="355" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="me4lYyNjMRYnS9wgJTod-79" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=3;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" source="me4lYyNjMRYnS9wgJTod-72" target="e6" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1275" y="355" />
+              <mxPoint x="1525" y="355" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="me4lYyNjMRYnS9wgJTod-81" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=3;" parent="1" source="me4lYyNjMRYnS9wgJTod-72" target="e4" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1275" y="485" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="me4lYyNjMRYnS9wgJTod-72" value="Рушій вилучення текстової та медійної інформації" style="rounded=1;whiteSpace=wrap;html=0;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=1;" parent="1" vertex="1">
+          <mxGeometry x="1080" y="200" width="390" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="me4lYyNjMRYnS9wgJTod-85" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fillColor=#ffe6cc;strokeColor=#d79b00;strokeWidth=3;" parent="1" source="e3" target="e7" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e3" value="Парсинг структури документа &#xa;розділи, таблиці, блоки - Docling, Unstructured; печатки й підписи — YOLO/Detectron2" style="rounded=1;whiteSpace=wrap;html=0;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
+          <mxGeometry x="670" y="570" width="380" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="me4lYyNjMRYnS9wgJTod-82" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fillColor=#ffe6cc;strokeColor=#d79b00;strokeWidth=3;" parent="1" source="e6" target="e5" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1970" y="355" />
+              <mxPoint x="1970" y="605" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e6" value="Аналіз відео&#xa;PySceneDetect + Qwen2.5-VL | Gemini, Azure AI Video Indexer" style="rounded=1;whiteSpace=wrap;html=0;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
+          <mxGeometry x="1525" y="320" width="380" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="me4lYyNjMRYnS9wgJTod-100" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fillColor=#e1d5e7;strokeColor=#9673a6;strokeWidth=3;" parent="1" source="e7" target="me4lYyNjMRYnS9wgJTod-90" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e7" value="Реєстр медіаартефактів&#xa;усі проміжні результати → MinIO / S3" style="rounded=1;whiteSpace=wrap;html=0;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" vertex="1">
+          <mxGeometry x="1095" y="680" width="380" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="me4lYyNjMRYnS9wgJTod-83" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fillColor=#ffe6cc;strokeColor=#d79b00;strokeWidth=3;" parent="1" source="e4" target="e5" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1970" y="485" />
+              <mxPoint x="1970" y="605" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e4" value="Вилучення і нормалізація аудіо&#xa;FFmpeg, DeepFilterNet, Demucs | Dolby.io" style="rounded=1;whiteSpace=wrap;html=0;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
+          <mxGeometry x="1530" y="450" width="380" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="me4lYyNjMRYnS9wgJTod-86" value="Контур конвертування інформації" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;" parent="1" vertex="1">
+          <mxGeometry x="630" y="200" width="420" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="me4lYyNjMRYnS9wgJTod-89" value="Контур обробки та підготовки даних" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;" parent="1" vertex="1">
+          <mxGeometry x="440" y="920" width="420" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="me4lYyNjMRYnS9wgJTod-91" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=3;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="me4lYyNjMRYnS9wgJTod-90" target="f1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1000" y="1015" />
+              <mxPoint x="1000" y="1015" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="me4lYyNjMRYnS9wgJTod-92" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=3;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="me4lYyNjMRYnS9wgJTod-90" target="f2" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1000" y="1015" />
+              <mxPoint x="1000" y="1125" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="me4lYyNjMRYnS9wgJTod-93" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=3;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1086.5" y="1015" as="sourcePoint" />
+            <mxPoint x="910" y="1235" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1000" y="1015" />
+              <mxPoint x="1000" y="1235" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="me4lYyNjMRYnS9wgJTod-101" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="me4lYyNjMRYnS9wgJTod-90" target="f5" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="me4lYyNjMRYnS9wgJTod-103" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=3;" parent="1" source="me4lYyNjMRYnS9wgJTod-90" target="me4lYyNjMRYnS9wgJTod-102" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="me4lYyNjMRYnS9wgJTod-90" value="Рушій вилучення та нормалізації сутностей&#xa;(UUID, key, value)" style="rounded=1;whiteSpace=wrap;html=0;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=1;" parent="1" vertex="1">
+          <mxGeometry x="1090" y="980" width="390" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="me4lYyNjMRYnS9wgJTod-94" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fillColor=#ffe6cc;strokeColor=#d79b00;strokeWidth=3;flowAnimation=1;startArrow=block;startFill=1;endArrow=none;" parent="1" source="f1" target="f3" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="f1" value="NER-сутності&#xa;GLiNER, spaCy, Stanza + regex для реквізитів" style="rounded=1;whiteSpace=wrap;html=0;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+          <mxGeometry x="606" y="980" width="300" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="f2" value="Малі мовні моделі + правила (зниження вартості)&#xa;Gemma, Phi, Qwen | Claude Haiku, малі моделі OpenAI" style="rounded=1;whiteSpace=wrap;html=0;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+          <mxGeometry x="606" y="1090" width="300" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="me4lYyNjMRYnS9wgJTod-97" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fillColor=#ffe6cc;strokeColor=#d79b00;strokeWidth=3;flowAnimation=1;startArrow=block;startFill=1;endArrow=block;endFill=1;" parent="1" source="f3" target="a3" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="f3" value="Entity linking із реєстрами&#xa;збагачення через «Трембіту»" style="rounded=1;whiteSpace=wrap;html=0;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
+          <mxGeometry x="125" y="1090" width="300" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="f4" value="Персональні дані: виявлення та псевдонімізація&#xa;Presidio | Private AI" style="rounded=1;whiteSpace=wrap;html=0;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+          <mxGeometry x="606" y="1200" width="300" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="me4lYyNjMRYnS9wgJTod-99" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#d5e8d4;strokeColor=#82b366;strokeWidth=3;" parent="1" source="f5" target="me4lYyNjMRYnS9wgJTod-98" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="f5" value="Класифікація документів і справ&#xa;категорія, тип, підсудність" style="rounded=1;whiteSpace=wrap;html=0;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+          <mxGeometry x="1590" y="980" width="300" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="me4lYyNjMRYnS9wgJTod-117" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#b0e3e6;strokeColor=#0e8088;strokeWidth=3;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="me4lYyNjMRYnS9wgJTod-110" target="s2" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="g1" value="Чанкінг&#xa;структурний + семантичний, різні розміри під завдання" style="rounded=1;whiteSpace=wrap;html=0;fillColor=#b0e3e6;strokeColor=#0e8088;" parent="1" vertex="1">
+          <mxGeometry x="805" y="1340" width="290" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="me4lYyNjMRYnS9wgJTod-95" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fillColor=#ffe6cc;strokeColor=#d79b00;strokeWidth=3;flowAnimation=1;startArrow=block;startFill=1;endArrow=none;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="f2" target="f3" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="830" y="1025" as="sourcePoint" />
+            <mxPoint x="730" y="1135" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="me4lYyNjMRYnS9wgJTod-96" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fillColor=#ffe6cc;strokeColor=#d79b00;strokeWidth=3;flowAnimation=1;startArrow=block;startFill=1;endArrow=none;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="f4" target="f3" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="830" y="1135" as="sourcePoint" />
+            <mxPoint x="730" y="1135" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="me4lYyNjMRYnS9wgJTod-98" value="СУБД&#xa;(PostgreSQL)&#xa;" style="rounded=1;whiteSpace=wrap;html=0;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" vertex="1">
+          <mxGeometry x="1590" y="1090" width="300" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="me4lYyNjMRYnS9wgJTod-104" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=3;" parent="1" source="me4lYyNjMRYnS9wgJTod-102" target="g1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1285" y="1310" />
+              <mxPoint x="950" y="1310" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="me4lYyNjMRYnS9wgJTod-121" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fillColor=#b0e3e6;strokeColor=#0e8088;strokeWidth=3;" parent="1" source="me4lYyNjMRYnS9wgJTod-102" target="g4" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1285" y="1310" />
+              <mxPoint x="1644" y="1310" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="me4lYyNjMRYnS9wgJTod-127" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;flowAnimation=1;strokeWidth=3;startArrow=block;startFill=1;fillColor=#b1ddf0;strokeColor=#10739e;endArrow=block;endFill=1;" parent="1" source="me4lYyNjMRYnS9wgJTod-102" target="me4lYyNjMRYnS9wgJTod-122" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2090" y="1235" />
+              <mxPoint x="2090" y="1125" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="me4lYyNjMRYnS9wgJTod-102" value="Рушій вилучення й обробки нормалізованої текстової інформації&#xa;(JSON, Markdown, text)" style="rounded=1;whiteSpace=wrap;html=0;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=1;" parent="1" vertex="1">
+          <mxGeometry x="1090" y="1200" width="390" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="me4lYyNjMRYnS9wgJTod-113" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#b1ddf0;strokeColor=#10739e;strokeWidth=3;" parent="1" source="g3" target="s3" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="g4" value="Реранкінг &#xa;bge-reranker | Cohere Rerank" style="rounded=1;whiteSpace=wrap;html=0;fillColor=#b0e3e6;strokeColor=#0e8088;" parent="1" vertex="1">
+          <mxGeometry x="1500" y="1340" width="287.5" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="me4lYyNjMRYnS9wgJTod-108" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="g2" target="g2" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="me4lYyNjMRYnS9wgJTod-110" value="Індекс нечіткого та повнотекстового пошуку&#xa;PostgreSQL FTS + pg_trgm | OpenSearch" style="rounded=1;whiteSpace=wrap;html=0;fillColor=#b0e3e6;strokeColor=#0e8088;" parent="1" vertex="1">
+          <mxGeometry x="807.5" y="1430" width="287.5" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="me4lYyNjMRYnS9wgJTod-112" value="Контур збереження даних" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;" parent="1" vertex="1">
+          <mxGeometry x="650" y="1620" width="420" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="s5" value="Кеш + семантичний кеш LLM&#xa;Redis/Valkey + GPTCache" style="rounded=1;whiteSpace=wrap;html=0;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" vertex="1">
+          <mxGeometry x="1498.75" y="1700" width="290" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="s6" value="Граф практики&#xa;справа–рішення–норма–суддя -  Neo4j | Neptune" style="rounded=1;whiteSpace=wrap;html=0;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" vertex="1">
+          <mxGeometry x="1501.25" y="1790" width="288.75" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="s7" value="Сховище результатів&#xa;видача у бажаній формі - PostgreSQL JSONB + MinIO" style="rounded=1;whiteSpace=wrap;html=0;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" vertex="1">
+          <mxGeometry x="1150" y="1790" width="285" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="s3" value="Векторне сховище&#xa;Qdrant / Milvus / Weaviate / pgvector | Pinecone" style="rounded=1;whiteSpace=wrap;html=0;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" vertex="1">
+          <mxGeometry x="1149.9999999999998" y="1700" width="288.75" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="s4" value="MinIO / S3&#xa;файли, артефакти, результати для видачі" style="rounded=1;whiteSpace=wrap;html=0;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" vertex="1">
+          <mxGeometry x="807.5" y="1790" width="290" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="s2" value="Vespa - чанки, гібридний пошук BM25+вектори&#xa;| Elastic Cloud, Azure AI Search" style="rounded=1;whiteSpace=wrap;html=0;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" vertex="1">
+          <mxGeometry x="806.25" y="1700" width="290" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="g3" value="Мультивекторні індекси&#xa;різні розмірності для різних завдань" style="rounded=1;whiteSpace=wrap;html=0;fillColor=#b0e3e6;strokeColor=#0e8088;" parent="1" vertex="1">
+          <mxGeometry x="1151.25" y="1430" width="287.5" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="g2" value="Ембедінги&#xa;BGE-M3, multilingual-E5 | OpenAI, Cohere, Voyage" style="rounded=1;whiteSpace=wrap;html=0;fillColor=#b0e3e6;strokeColor=#0e8088;" parent="1" vertex="1">
+          <mxGeometry x="1150" y="1340" width="290" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="me4lYyNjMRYnS9wgJTod-122" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;opacity=40;arcSize=9;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" parent="1" vertex="1">
+          <mxGeometry x="2160" y="880" width="1400" height="490" as="geometry" />
+        </mxCell>
+        <mxCell id="me4lYyNjMRYnS9wgJTod-123" value="Контур обробки зовнішніх датасетів" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;" parent="1" vertex="1">
+          <mxGeometry x="2190" y="910" width="420" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="k1" value="Законодавство з версіонуванням&#xa;редакція норми на дату - rada.gov.ua, reestrnpa.gov.ua" style="rounded=1;whiteSpace=wrap;html=0;fillColor=#ffe599;strokeColor=#b45f06;" parent="1" vertex="1">
+          <mxGeometry x="2210" y="1072.5" width="380" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="me4lYyNjMRYnS9wgJTod-197" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=3;endArrow=block;endFill=1;" parent="1" source="me4lYyNjMRYnS9wgJTod-124" target="k1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2820" y="1030" />
+              <mxPoint x="2400" y="1030" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="me4lYyNjMRYnS9wgJTod-198" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=3;endArrow=block;endFill=1;" parent="1" source="me4lYyNjMRYnS9wgJTod-124" target="k2" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="me4lYyNjMRYnS9wgJTod-199" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=3;endArrow=block;endFill=1;" parent="1" source="me4lYyNjMRYnS9wgJTod-124" target="k4" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2820" y="1030" />
+              <mxPoint x="3240" y="1030" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="me4lYyNjMRYnS9wgJTod-124" value="Рушій відстеження та обробки зовнішніх датасетів" style="rounded=1;whiteSpace=wrap;html=0;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=1;" parent="1" vertex="1">
+          <mxGeometry x="2625" y="920" width="390" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="k2" value="Практика Верховного Суду&#xa;ЄДРСР - lpd.court.gov.ua" style="rounded=1;whiteSpace=wrap;html=0;fillColor=#ffe599;strokeColor=#b45f06;" parent="1" vertex="1">
+          <mxGeometry x="2630" y="1072.5" width="380" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="k3" value="Практика ЄСПЛ&#xa;HUDOC API" style="rounded=1;whiteSpace=wrap;html=0;fillColor=#ffe599;strokeColor=#b45f06;" parent="1" vertex="1">
+          <mxGeometry x="2210" y="1167.5" width="380" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="k4" value="Узагальнення ВРП&#xa;постанови, рекомендації" style="rounded=1;whiteSpace=wrap;html=0;fillColor=#ffe599;strokeColor=#b45f06;" parent="1" vertex="1">
+          <mxGeometry x="3050" y="1072.5" width="380" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="me4lYyNjMRYnS9wgJTod-126" value="Рішення інших міжнародних інституцій &#xa;(КРЄС, ЕКОСОР, ЄС, ОЕСР тощо)" style="rounded=1;whiteSpace=wrap;html=0;fillColor=#ffe599;strokeColor=#b45f06;" parent="1" vertex="1">
+          <mxGeometry x="2630" y="1167.5" width="380" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="me4lYyNjMRYnS9wgJTod-129" value="Контур управління моделями" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;" parent="1" vertex="1">
+          <mxGeometry x="650" y="1990" width="420" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="me4lYyNjMRYnS9wgJTod-145" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=3;" parent="1" source="me4lYyNjMRYnS9wgJTod-130" target="l5" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="me4lYyNjMRYnS9wgJTod-130" value="Рушій маршрутизації залежно від характеристик завдання&#xa;(складність, швидкість, вартість)" style="rounded=1;whiteSpace=wrap;html=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="1150" y="2000" width="300" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="me4lYyNjMRYnS9wgJTod-162" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=3;endArrow=block;endFill=1;startArrow=block;startFill=1;flowAnimation=1;" parent="1" source="l2" target="me4lYyNjMRYnS9wgJTod-160" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="me4lYyNjMRYnS9wgJTod-163" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=3;endArrow=block;endFill=1;startArrow=block;startFill=1;flowAnimation=1;" parent="1" source="l2" target="me4lYyNjMRYnS9wgJTod-161" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="me4lYyNjMRYnS9wgJTod-171" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=3;endArrow=block;endFill=1;" parent="1" source="l2" target="me4lYyNjMRYnS9wgJTod-168" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="l2" value="Локальний інференс&#xa;vLLM, NVIDIA Triton, TensorRT-LLM | Ollama (розробка)" style="rounded=1;whiteSpace=wrap;html=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="1580" y="2240" width="300" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="me4lYyNjMRYnS9wgJTod-169" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=3;endArrow=block;endFill=1;" parent="1" source="l1" target="me4lYyNjMRYnS9wgJTod-168" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="l1" value="LLM-шлюз&#xa;LiteLLM proxy | OpenRouter, Portkey" style="rounded=1;whiteSpace=wrap;html=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="670" y="2240" width="300" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="me4lYyNjMRYnS9wgJTod-132" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;opacity=40;arcSize=9;" parent="1" vertex="1">
+          <mxGeometry x="160" y="2040" width="390" height="430" as="geometry" />
+        </mxCell>
+        <mxCell id="me4lYyNjMRYnS9wgJTod-139" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=3;fillColor=#f5f5f5;strokeColor=#666666;flowAnimation=1;startArrow=block;startFill=1;endArrow=block;endFill=1;" parent="1" source="me4lYyNjMRYnS9wgJTod-133" target="l1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="650" y="2225" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="590" y="2225" />
+              <mxPoint x="590" y="2275" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="me4lYyNjMRYnS9wgJTod-133" value="OpenAI" style="rounded=1;whiteSpace=wrap;html=0;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" parent="1" vertex="1">
+          <mxGeometry x="200" y="2190" width="300" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="me4lYyNjMRYnS9wgJTod-142" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=3;fillColor=#f5f5f5;strokeColor=#666666;flowAnimation=1;startArrow=block;startFill=1;endArrow=block;endFill=1;" parent="1" source="me4lYyNjMRYnS9wgJTod-134" target="l1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="590" y="2315" />
+              <mxPoint x="590" y="2275" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="me4lYyNjMRYnS9wgJTod-134" value="Gemini" style="rounded=1;whiteSpace=wrap;html=0;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" parent="1" vertex="1">
+          <mxGeometry x="200" y="2280" width="300" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="me4lYyNjMRYnS9wgJTod-135" value="Grok" style="rounded=1;whiteSpace=wrap;html=0;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" parent="1" vertex="1">
+          <mxGeometry x="200" y="2380" width="300" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="me4lYyNjMRYnS9wgJTod-138" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=3;fillColor=#f5f5f5;strokeColor=#666666;flowAnimation=1;startArrow=block;startFill=1;endArrow=block;endFill=1;" parent="1" source="me4lYyNjMRYnS9wgJTod-136" target="l1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="650" y="2225" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="590" y="2125" />
+              <mxPoint x="590" y="2275" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="me4lYyNjMRYnS9wgJTod-136" value="Anthropic " style="rounded=1;whiteSpace=wrap;html=0;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" parent="1" vertex="1">
+          <mxGeometry x="200" y="2090" width="300" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="me4lYyNjMRYnS9wgJTod-137" value="Зовнішні LLM" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;spacing=0;" parent="1" vertex="1">
+          <mxGeometry x="185" y="2040" width="350" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="me4lYyNjMRYnS9wgJTod-143" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=3;fillColor=#f5f5f5;strokeColor=#666666;flowAnimation=1;startArrow=block;startFill=1;endArrow=block;endFill=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="me4lYyNjMRYnS9wgJTod-135" target="l1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="510" y="2325" as="sourcePoint" />
+            <mxPoint x="690" y="2285" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="500" y="2410" />
+              <mxPoint x="590" y="2410" />
+              <mxPoint x="590" y="2275" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="me4lYyNjMRYnS9wgJTod-146" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fillColor=#f5f5f5;strokeColor=#666666;strokeWidth=3;" parent="1" source="l5" target="l1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1300" y="2275" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="me4lYyNjMRYnS9wgJTod-147" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fillColor=#f5f5f5;strokeColor=#666666;strokeWidth=3;" parent="1" source="l5" target="l2" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="l5" value="Guardrails + реєстр промптів&#xa;NeMo Guardrails | Langfuse" style="rounded=1;whiteSpace=wrap;html=0;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" parent="1" vertex="1">
+          <mxGeometry x="1150" y="2120" width="300" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="me4lYyNjMRYnS9wgJTod-149" value="Контур навчання моделей" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;" parent="1" vertex="1">
+          <mxGeometry x="2210" y="2000" width="420" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="me4lYyNjMRYnS9wgJTod-154" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fillColor=#ffcc99;strokeColor=#36393d;strokeWidth=3;endArrow=block;endFill=1;" parent="1" source="h1" target="me4lYyNjMRYnS9wgJTod-150" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="h1" value="Розмітка даних&#xa;Label Studio, Argilla | Scale AI" style="rounded=1;whiteSpace=wrap;html=0;fillColor=#e8d3c0;strokeColor=#8c6239;" parent="1" vertex="1">
+          <mxGeometry x="2780" y="2060" width="300" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="me4lYyNjMRYnS9wgJTod-156" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fillColor=#ffcc99;strokeColor=#36393d;strokeWidth=3;endArrow=block;endFill=1;" parent="1" source="h2" target="h4" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="h2" value="Донавчання LoRA/SFT&#xa;Axolotl, Unsloth | Vertex AI, Azure ML" style="rounded=1;whiteSpace=wrap;html=0;fillColor=#e8d3c0;strokeColor=#8c6239;" parent="1" vertex="1">
+          <mxGeometry x="2780" y="2280" width="300" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="me4lYyNjMRYnS9wgJTod-158" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fillColor=#ffcc99;strokeColor=#36393d;strokeWidth=3;endArrow=block;endFill=1;" parent="1" source="h3" target="h5" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="h3" value="Реєстр моделей та експерименти&#xa;MLflow | Weights &amp; Biases" style="rounded=1;whiteSpace=wrap;html=0;fillColor=#e8d3c0;strokeColor=#8c6239;" parent="1" vertex="1">
+          <mxGeometry x="3180" y="2170" width="300" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="me4lYyNjMRYnS9wgJTod-157" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fillColor=#ffcc99;strokeColor=#36393d;strokeWidth=3;endArrow=block;endFill=1;" parent="1" source="h4" target="h3" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="h4" value="Оцінювання якості&#xa;Ragas, DeepEval, promptfoo, бенчмарки справ" style="rounded=1;whiteSpace=wrap;html=0;fillColor=#e8d3c0;strokeColor=#8c6239;" parent="1" vertex="1">
+          <mxGeometry x="3180" y="2060" width="300" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="h5" value="CI/CD і сервінг моделей&#xa;GitHub Actions / GitLab CI + Argo CD; KServe" style="rounded=1;whiteSpace=wrap;html=0;fillColor=#e8d3c0;strokeColor=#8c6239;" parent="1" vertex="1">
+          <mxGeometry x="3180" y="2280" width="300" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="me4lYyNjMRYnS9wgJTod-155" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fillColor=#ffcc99;strokeColor=#36393d;strokeWidth=3;endArrow=block;endFill=1;" parent="1" source="me4lYyNjMRYnS9wgJTod-150" target="h2" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="me4lYyNjMRYnS9wgJTod-150" value="Версіонування даних та експериментів&#xa;DVC + MLflow | Weights &amp; Biases" style="rounded=1;whiteSpace=wrap;html=0;fillColor=#e8d3c0;strokeColor=#8c6239;" parent="1" vertex="1">
+          <mxGeometry x="2780" y="2170" width="300" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="me4lYyNjMRYnS9wgJTod-153" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=3;endArrow=block;endFill=1;" parent="1" source="me4lYyNjMRYnS9wgJTod-151" target="h1" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="me4lYyNjMRYnS9wgJTod-159" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=1;startArrow=block;startFill=1;fillColor=#eeeeee;strokeColor=#36393d;strokeWidth=3;flowAnimation=1;" parent="1" source="me4lYyNjMRYnS9wgJTod-151" target="me4lYyNjMRYnS9wgJTod-111" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="me4lYyNjMRYnS9wgJTod-151" value="Рушій керування процесом навчання&#xa;Kubeflow Pipelines, ClearML | Flyte" style="rounded=1;whiteSpace=wrap;html=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="2200" y="2060" width="300" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="me4lYyNjMRYnS9wgJTod-160" value="Готові моделі для специфічних завдань" style="rounded=1;whiteSpace=wrap;html=0;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" vertex="1">
+          <mxGeometry x="2200" y="2170" width="300" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="me4lYyNjMRYnS9wgJTod-161" value="Власні моделі для специфічних завдань" style="rounded=1;whiteSpace=wrap;html=0;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" vertex="1">
+          <mxGeometry x="2200" y="2280" width="300" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="me4lYyNjMRYnS9wgJTod-164" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;opacity=40;arcSize=9;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" parent="1" vertex="1">
+          <mxGeometry x="615" y="2560" width="1405" height="310" as="geometry" />
+        </mxCell>
+        <mxCell id="me4lYyNjMRYnS9wgJTod-165" value="Контур верифікації видачі" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;" parent="1" vertex="1">
+          <mxGeometry x="650" y="2600" width="420" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="me4lYyNjMRYnS9wgJTod-173" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=3;endArrow=block;endFill=1;" parent="1" source="me4lYyNjMRYnS9wgJTod-166" target="n2" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="me4lYyNjMRYnS9wgJTod-166" value="Рушій отримання результатів роботи моделі та перевірки правильності&#xa;(двоетапна, перехресна та консиліумна перевірка)" style="rounded=1;whiteSpace=wrap;html=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="1151.88" y="2610" width="300" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="me4lYyNjMRYnS9wgJTod-174" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=3;fillColor=#dae8fc;strokeColor=#6c8ebf;endArrow=block;endFill=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="n2" target="m2" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1302" y="3200" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1302" y="3050" />
+              <mxPoint x="1135" y="3050" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="me4lYyNjMRYnS9wgJTod-175" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=3;endArrow=block;endFill=1;" parent="1" source="n2" target="me4lYyNjMRYnS9wgJTod-151" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2590" y="2775" />
+              <mxPoint x="2590" y="2095" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="n2" value="Система контролю якості за допомогою ручної перевірки&#xa;(Human-in-the-loop)" style="rounded=1;whiteSpace=wrap;html=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="1151.88" y="2740" width="300" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="me4lYyNjMRYnS9wgJTod-180" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=3;endArrow=block;endFill=1;" parent="1" target="m1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1296.8800000000006" y="3050" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="me4lYyNjMRYnS9wgJTod-181" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=3;endArrow=block;endFill=1;" parent="1" target="m2" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1296.9411764705883" y="3050" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="me4lYyNjMRYnS9wgJTod-182" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=3;endArrow=block;endFill=1;" parent="1" target="m3" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1296.9411764705883" y="3050" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="me4lYyNjMRYnS9wgJTod-183" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=3;endArrow=block;endFill=1;" parent="1" target="m5" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1296.8800000000006" y="3050" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="me4lYyNjMRYnS9wgJTod-172" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fillColor=#f5f5f5;strokeColor=#666666;strokeWidth=3;endArrow=block;endFill=1;" parent="1" source="me4lYyNjMRYnS9wgJTod-168" target="me4lYyNjMRYnS9wgJTod-166" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="me4lYyNjMRYnS9wgJTod-168" value="Результат (response)" style="rounded=1;whiteSpace=wrap;html=0;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" parent="1" vertex="1">
+          <mxGeometry x="1151.88" y="2360" width="300" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="me4lYyNjMRYnS9wgJTod-178" value="Сервіси роботи з ШІ" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;" parent="1" vertex="1">
+          <mxGeometry x="660" y="2980" width="420" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="m1" value="Вилучені дані&#xa;для обліку та інших підсистем ЄСІКС&#xa;(ЄСІКС) " style="rounded=1;whiteSpace=wrap;html=0;fillColor=#d0cee2;strokeColor=#56517e;" parent="1" vertex="1">
+          <mxGeometry x="650" y="3140" width="300" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="me4lYyNjMRYnS9wgJTod-184" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fillColor=#d0cee2;strokeColor=#56517e;strokeWidth=3;endArrow=block;endFill=1;" parent="1" source="m6" target="m8" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="m6" value="Аналіз застосування законодавства&#xa;недієві, застарілі, незастосовані норми&#xa;(Мінюст)" style="rounded=1;whiteSpace=wrap;html=0;fillColor=#d0cee2;strokeColor=#56517e;" parent="1" vertex="1">
+          <mxGeometry x="650" y="3240" width="300" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="m2" value="Аномалії рішень&#xa;(ВРП)" style="rounded=1;whiteSpace=wrap;html=0;fillColor=#d0cee2;strokeColor=#56517e;" parent="1" vertex="1">
+          <mxGeometry x="985" y="3140" width="300" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="m7" value="Проєкти судових рішень&#xa;(Мінцифри, ЕК судді)" style="rounded=1;whiteSpace=wrap;html=0;fillColor=#d0cee2;strokeColor=#56517e;" parent="1" vertex="1">
+          <mxGeometry x="985" y="3240" width="300" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="m3" value="Сталість власної практики судді&#xa;(ВРП, ЕК судді)" style="rounded=1;whiteSpace=wrap;html=0;fillColor=#d0cee2;strokeColor=#56517e;" parent="1" vertex="1">
+          <mxGeometry x="1325" y="3140" width="300" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="m4" value="Єдність практики суду&#xa;порівняння в межах суду&#xa;(суд, ВККСУ, ВРП)" style="rounded=1;whiteSpace=wrap;html=0;fillColor=#d0cee2;strokeColor=#56517e;" parent="1" vertex="1">
+          <mxGeometry x="1325" y="3240" width="300" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="me4lYyNjMRYnS9wgJTod-187" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#d0cee2;strokeColor=#56517e;strokeWidth=3;endArrow=blockThin;endFill=1;" parent="1" source="m8" target="me4lYyNjMRYnS9wgJTod-186" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="m8" value="Поглиблений аналіз (agentic RAG)&#xa;LangGraph, Haystack, DSPy&#xa;(ВРП, ВККСУ, ЕК судді)" style="rounded=1;whiteSpace=wrap;html=0;fillColor=#d0cee2;strokeColor=#56517e;" parent="1" vertex="1">
+          <mxGeometry x="1150" y="3350" width="300" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="m5" value="Відповідність практиці ВС, ЄСПЛ&#xa;(ЕК судді, ВС)" style="rounded=1;whiteSpace=wrap;html=0;fillColor=#d0cee2;strokeColor=#56517e;" parent="1" vertex="1">
+          <mxGeometry x="1667.5" y="3140" width="300" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="me4lYyNjMRYnS9wgJTod-185" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fillColor=#d0cee2;strokeColor=#56517e;strokeWidth=3;endArrow=block;endFill=1;" parent="1" source="m9" target="m8" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="m9" value="Звіти та узагальнення&#xa;(ДСА, ВРП)" style="rounded=1;whiteSpace=wrap;html=0;fillColor=#d0cee2;strokeColor=#56517e;" parent="1" vertex="1">
+          <mxGeometry x="1667.5" y="3240" width="300" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="me4lYyNjMRYnS9wgJTod-186" value="API видачі в підсистеми ЄСІКС&#xa;FastAPI + OpenAPI" style="rounded=1;whiteSpace=wrap;html=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="1150" y="3480" width="300" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="me4lYyNjMRYnS9wgJTod-190" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=3;fillColor=#dae8fc;strokeColor=#6c8ebf;startArrow=block;startFill=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;flowAnimation=1;" parent="1" source="me4lYyNjMRYnS9wgJTod-191" target="l2" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1890" y="2155" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="me4lYyNjMRYnS9wgJTod-191" value="Планування та розподіл GPU-ресурсів &#xa;Kubernetes + NVIDIA GPU Operator + Kueue | Volcano" style="rounded=1;whiteSpace=wrap;html=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="1580" y="2120" width="300" height="70" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
