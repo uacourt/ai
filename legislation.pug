@@ -1,10 +1,14 @@
-include header
+extends header
 
-html
-    head
-        meta(property='og:title'       content='ЄСІКС: Аналіз застосування законодавства')
-        meta(property='og:description' content='Сервіс аналізу застосування законодавства (недієві, застарілі, незастосовані норми)')
-        meta(property='og:url'         content='https://uacourt.github.io/ai/legislation.html')
+block vars
+    - var activeMenu = 'ai'
+    - var headerTitle = 'ШІ'
+    - var headerSubtitle = 'Аналіз застосування законодавства (недієві, застарілі, незастосовані норми)'
+
+block head_extra
+    meta(property='og:title'       content='ЄСІКС: Аналіз застосування законодавства')
+    meta(property='og:description' content='Сервіс аналізу застосування законодавства (недієві, застарілі, незастосовані норми)')
+    meta(property='og:url'         content='https://uacourt.github.io/ai/legislation.html')
 
 block title
     title ЄСІКС: Аналіз застосування законодавства

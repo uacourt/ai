@@ -1,10 +1,14 @@
-include header
+extends header
 
-html
-    head
-        meta(property='og:title'       content='ЄСІКС: Інтелектуальні сервіси')
-        meta(property='og:description' content='Інтелектуальні сервіси на базі локальних LLM')
-        meta(property='og:url'         content='https://uacourt.github.io/ai/')
+block vars
+    - var activeMenu = 'ai'
+    - var headerTitle = 'ШІ'
+    - var headerSubtitle = 'Інтелектуальні сервіси на базі локальних LLM'
+
+block head_extra
+    meta(property='og:title'       content='ЄСІКС: Інтелектуальні сервіси')
+    meta(property='og:description' content='Інтелектуальні сервіси на базі локальних LLM')
+    meta(property='og:url'         content='https://uacourt.github.io/ai/')
 
 block title
     title ЄСІКС: Інтелектуальні сервіси
